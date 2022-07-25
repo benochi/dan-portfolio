@@ -5,9 +5,9 @@
  */
 
 module.exports = {
+  pathPrefix: "/dan-portfolio",
   /* Your site config here */
   plugins: [
     'gatsby-plugin-postcss',
   ],
-  pathPrefix: "/gatsby-portfolio",
 }
