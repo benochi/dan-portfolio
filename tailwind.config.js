@@ -17,7 +17,8 @@ module.exports = {
         'rumble': '#AADB1E',
         'discord': '#7289da',
         'springboard': '#3ded97',
-        'amazon': '#FF9900'
+        'amazon': '#FF9900',
+        'crimson':'#990000'
       },
       
     },

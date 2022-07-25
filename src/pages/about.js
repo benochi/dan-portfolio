@@ -4,12 +4,15 @@ import Layout from '../components/Layout'
 
 export default function About() {
   return (
-    <div>
+      <div>
+      <h2 class="container mx-auto rounded-xl shadow-lg md:mx-auto text-2xl text-center bg-darkest font-bold m-5 border-b-2 p-2 drop-shadow-2xl
+       bg-gradient-to-r from-crimson">ABOUT PAGE</h2>
       <Layout>
-      <section class="bg-darker border-2 mb-5 p-1 border-lightest shadow-xl bg-gradient-to-t from-darker">
-        <h1 class="text-3xl font-bold p-5">About:</h1>
-        <div class="text-base  leading-relaxed mt-0 mb-4 pl-2 pr-2">
-          <p>I am interested in all things tech, photography, gaming and MMA.  During my free time, I love to learn new skills.  I am a novice photographer, videographer, 
+      <section class="border-2 mb-5 p-1 border-lightest shadow-xl bg-darker">
+        <div>
+          <h2 class="text-4xl text-center bg-darkest font-bold m-5 border-b-2 p-2 drop-shadow-2xl bg-gradient-to-r from-crimson">ABOUT</h2>
+        <div class="text-base leading-relaxed mb-4 pl-5 pr-5">
+          <p class=" mt-2">I am interested in all things tech, photography, gaming and MMA.  During my free time, I love to learn new skills.  I am a novice photographer, videographer, 
           and PC builder.  I like to think of new ways to solve problems which is why I'm pursuing software engineering and filing multiple patents.  I have also started a YouTube 
           and Rumble channel where I give coding tutorials(Links below) which keeps me highly motivated to learn new skills.
           </p>  <br></br>
@@ -32,7 +35,7 @@ export default function About() {
           </p> <br></br>
              
         </div>
-        <h1 class="border-b-2 border-lightest border-t-2 pt-1 pb-1 text-center font-bold bg-darkest">
+        <h1 class="border-b-2 border-lightest  border-t-2 pt-1 pb-1 text-center font-bold bg-darkest">
           <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCcvDfBffmgsj4wh3JxtSgLQ" class="text-highlight">YouTube</a> and <a target="_blank" rel="noreferrer" href="https://rumble.com/register/EaterOfPlanets/" class="text-rumble">Rumble</a> channels
           </h1>
         <div class="grid grid-cols-1 gap-2 p-5 lg:grid-cols-2 xl:grid-cols-2 bg-gradient-to-t from-darker ">
@@ -46,6 +49,7 @@ export default function About() {
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
           </div>
+        </div>
         </div>
       </section>
       </Layout>

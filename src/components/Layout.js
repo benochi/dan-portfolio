@@ -5,6 +5,7 @@ import * as styles from '../styles/home.module.css'
 import headshot from '../images/headshot.jpg'
 
 //children is anything nested inside <Layout></Layout>
+
 export default function Layout({ children }) {
   return (
     <div class="container mx-auto rounded-xl shadow-lg md:mx-auto">

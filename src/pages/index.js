@@ -29,14 +29,20 @@ import vscode from '../images/logos/vscode.svg'
 import regurupic from '../images/projects/regurupic.jpg';
 import recipepic from '../images/projects/recipeapp.jpg'
 
+const pageName= "home"
 
 export default function Home() {
   return (
+      <div>
+      <h2 class="container mx-auto rounded-xl shadow-lg md:mx-auto text-2xl text-center bg-darkest font-bold m-5 border-b-2 p-2 drop-shadow-2xl
+       bg-gradient-to-r from-crimson">HOME PAGE</h2>
+      
     <Layout>
-      <section class="border-2 mb-5 p-5 border-lightest shadow-xl bg-darker">
+    
+      <section class="border-2 mb-5 p-1 border-lightest shadow-xl bg-darker">
         <div>
-          <h2 class="text-3xl font-bold">Skills:</h2>
-          <div class="grid grid-cols-3 gap-1 shadow-lg p-5 lg:grid-cols-8 md:grid-cols-6 sm:grid-cols-4 xl:grid-cols-12 bg-lighter">
+          <h2 class="text-4xl text-center bg-darkest font-bold m-5 border-b-2 p-2 drop-shadow-2xl bg-gradient-to-r from-crimson">SKILLS</h2>
+          <div class="grid grid-cols-3 gap-1 shadow-lg m-5 p-5 lg:grid-cols-8 md:grid-cols-6 sm:grid-cols-4 xl:grid-cols-12 bg-lighter">
             <div>
               <h5 class="content-center text-center text-textcol"><strong>Ajax</strong></h5>
               <img className={styles.logo} alt="Ajax Icon" src={ajax}></img>
@@ -129,8 +135,8 @@ export default function Home() {
         </div>
       </section>
       <section class=" border-2 mb-5 p-1 border-lightest shadow-xl bg-darker">
-        <h1 class="text-3xl font-bold p-5">PROJECTS:</h1>
-        <div class="grid grid-cols-1 gap-1 p-5 lg:grid-cols-1 xl:grid-cols-1 ">
+        <h1 class="text-4xl text-center bg-darkest font-bold m-5 border-b-2 p-2 drop-shadow-2xl bg-gradient-to-r from-crimson">PROJECTS</h1>
+        <div class="grid grid-cols-1 gap-1 pl-5 pr-5 lg:grid-cols-1 xl:grid-cols-1 ">
           <div class="grid-cols p-5 shadow-xl bg-lighter">
             <h1 class="content-center text-2xl font-bold">
               <Link className={styles.applink} target="_blank" to="http://reguru.herokuapp.com/">Go to REGURU - testuser/test1234</Link>
@@ -178,7 +184,7 @@ export default function Home() {
               <h4 class="text-3xl font-bold">Description:</h4>
               <p class="pt-2">
                 Recipe lookup is an application for finding what you can make out of specific ingredients.  This application was built because I enjoy cooking 
-                and don't like wasting leftovers.  The application uses the Edamam API to find matching recipes, a quick ingredient list and cooking instructions.
+                and don't like wasting leftovers. </p> <p><br></br>The application uses the Edamam API to find matching recipes, a quick ingredient list and cooking instructions.
               </p>
             </div>
             <div class="grid-cols-1 bg-darkest p-2 shadow-xl border-2 border-lightest mt-1">
@@ -199,5 +205,6 @@ export default function Home() {
         </div>
       </section>
     </Layout>
+    </div>
   )
 }

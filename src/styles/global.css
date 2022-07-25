@@ -9,6 +9,7 @@
   text-decoration: none;
   font-family: "Montserrat";
   color: #eaf9fe;
+  border-radius: 15px;
 }
 html, body {
   min-height: 100%;
