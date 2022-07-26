@@ -4,12 +4,13 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
+  margin-bottom: 0;
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
   color: #eaf9fe;
   border-radius: 15px;
+
 }
 html, body {
   min-height: 100%;

@@ -23,8 +23,23 @@ export default function Layout({ children }) {
             <div class="flex flex-col content-center ">
               <div class="flex-auto">
                 <div class="flex flex-col pl-2">
-                  <a href="mailto:benochi82@gmail.com" rel="noreferrer" className={styles.btn}>Email me</a>
-                  <a href="tel:7202069074" rel="noreferrer" className={styles.btn}>Call me</a>
+                    <h2 class="text-3xl">Contact me</h2>
+                  <form
+                    class="border-2 mb-1 border-lightest"
+                    action="https://formspree.io/f/xdobqvaw"
+                    method="POST"
+                  >
+                    <label class="m-1">
+                      Your email:
+                      <input class="m-1" type="email" name="email"/>
+                    </label>
+                    <label class="m-1">
+                      Your message:
+                      <textarea class="text-darkest m-1" name="message"></textarea>
+                    </label>
+                    <button className={styles.btn} type="submit">Send</button>
+                  </form>
+                  
                   <a href="https://github.com/benochi" target="_blank" rel="noreferrer" className={styles.btn}>Github</a>
                   <a href="https://www.linkedin.com/in/dan-p-eop/" target="_blank" rel="noreferrer" className={styles.btn}>LinkedIn</a>
                 </div>

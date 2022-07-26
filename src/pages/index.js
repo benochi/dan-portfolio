@@ -29,8 +29,6 @@ import vscode from '../images/logos/vscode.svg'
 import regurupic from '../images/projects/regurupic.jpg';
 import recipepic from '../images/projects/recipeapp.jpg'
 
-const pageName= "home"
-
 export default function Home() {
   return (
       <div>
@@ -38,7 +36,6 @@ export default function Home() {
        bg-gradient-to-r from-crimson">HOME PAGE</h2>
       
     <Layout>
-    
       <section class="border-2 mb-5 p-1 border-lightest shadow-xl bg-darker">
         <div>
           <h2 class="text-4xl text-center bg-darkest font-bold m-5 border-b-2 p-2 drop-shadow-2xl bg-gradient-to-r from-crimson">SKILLS</h2>
