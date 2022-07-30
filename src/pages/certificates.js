@@ -5,6 +5,7 @@ import springcert from '../images/certificates/springboard certificate.jpg';
 import awsbcm from '../images/certificates/awsBCM.png';
 import awssrm from '../images/certificates/awsSRM.png';
 import hacktn from '../images/certificates/hackathon.png';
+import seocert from '../images/certificates/SeoCert.png';
 
 
 export default function Certificates() {
@@ -30,6 +31,9 @@ export default function Certificates() {
           </div>
           <div class="grid-cols p-5 shadow-xl">
             <img src={hacktn} alt="Hackathon Tennessee certificate of completion" class="mt-2 object-cover h-480 w-960 border-2 border-lightest"></img>
+          </div>
+          <div class="grid-cols p-5 shadow-xl">
+            <img src={seocert} alt="semrush local seo certificate of completion" class="mt-2 object-cover h-480 w-960 border-2 border-lightest"></img>
           </div>
         </div>
       </section>
